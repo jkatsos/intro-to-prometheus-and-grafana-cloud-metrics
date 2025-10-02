@@ -41,7 +41,7 @@ It should look something like this:
 From the view page:
 
 1. Click the Copy as panel button in the upper right.
-2. Open an existing dashboard or create a new dashboard.
+2. Open an the dashboard you created in the previous breakout.
 3. At the top of the dashboard, click Add and select Paste panel from the dropdown.
 4. Edit the new panel and view the generated queries.
 
@@ -86,6 +86,6 @@ What algorithm does Grafana Forecasting use?
 
 ```
 ## Answer to the Pop Quiz
-```
+
 Grafana Forecasting uses the Prophet algorithm for its forecasting capabilities. Prophet is a time series forecasting model developed by Facebook, designed to automatically account for features such as yearly, weekly, and daily seasonality. This allows Grafana to capture repeating patterns in your data and use them for adaptive alerting and capacity planning. Additionally, Grafana Machine Learning supports enhancements like holiday effects, where you can inform the model about specific recurring events to improve forecast accuracy. The model is retrained periodically to stay up-to-date with your latest data and patternsprometheus_build_info
-```
+
