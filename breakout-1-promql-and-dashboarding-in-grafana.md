@@ -1,10 +1,4 @@
-# Prometheus Breakout 2 - PromQL and Dashboarding in Grafana
-
-Visit grafana.com and sign in to access your hosted Grafana instance or log in to your hosted Grafana instance directly (https://YourInstanceExampleURL.grafana.net).
-
-Once logged into grafana.com, you'll be presented with your stack. Click the Log in button in the Grafana section:
-
-![Grafana Cloud Stack](images/image24.png)
+# Prometheus Breakout 1 - PromQL and Dashboarding in Grafana
 
 ## Adding a Prometheus Data Source
 Once you are signed into your instance, let's visit the data source section and add one.
@@ -23,32 +17,12 @@ Click **Save & Test** at the bottom of the page to confirm your Prometheus data 
 
 Great! We’ve just added the Prometheus data source that we used in the first breakout session.
 
-Grafana’s dashboard UI is all about building dashboards for visualization while the **Explore** view strips away all the dashboard and panel options so you can focus on the query.
-
----
-
-![Dashboard view](images/image2.png)
-Dashboard view
-
----
-
-![Explore view](images/image18.png)
-Explore view
-
----
-
-In this workshop, we will apply the things we learned by writing a query first to get some data back. Once we have established our query, we can create a dashboard with visualization panels and saved queries.
-
 ## Using the Explore View
 To write a query in the Explore view, click on the **Explore** icon in the navbar on the left.
 
 Now that we are in the Explore view, make sure the `workshop` data source is selected on the top left.
 
 ![Explore workshop](images/image12.png)
-
-First, use the drop-down to explore some of the metrics available to us. Looks familiar, right?
-
-![Explore workshop metrics](images/image11.gif)
 
 The query we want to start off with is `tns_request_duration_seconds_count`. Enter this into the metrics browser field and `Run query` in the top right of the Explorer page.
 
@@ -57,6 +31,10 @@ The query we want to start off with is `tns_request_duration_seconds_count`. Ent
 This query is telling us the count of the number of requests. It will list all jobs.
 
 Let’s focus on a specific job, `tns-app`.
+
+If you are wondering what the TNS app is see [The New Stack (TNS) observability app](https://github.com/grafana/tns)
+
+
 
 Apply the job label:
 ```
