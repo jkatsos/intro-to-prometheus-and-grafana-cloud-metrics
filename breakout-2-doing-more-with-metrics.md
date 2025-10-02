@@ -1,5 +1,7 @@
 # Breakout 2 - Doing more with Metrics in Grafana Cloud
 
+# Part 1 - Metrics forecasting and anomoly detection
+
 Navigate to the Grafana AI & Machine learning page
 
 ![Node exporter metrics](images/image27.png)
@@ -54,8 +56,49 @@ From the view page:
 4. Click Save or Save and exit to create the alert and navigate back to the previous page.
 
 
+
+
+# Part 2 - Metrics for monitoring your infrastructure
+
+Configuring, installing, connecting, and maintaining components for a Prometheus-based observability stack often involve significant domain knowledge, and can be tedious and time consuming. Grafana integrations offer you a fast and easy way to get started with minimal effort. Integrations are built with a curated set of default metrics and preconfigured Grafana dashboards, driven by Grafana Alloy deployed into your environment.
+
+Let's see this is action.
+
+Goto to [Grafana Play](https://play.grafana.org/)
+Play is a sandbox for testing and learning Grafana that runs on Grafana Cloud.
+Find interactive demos, explore how Grafana works, and see what you can build.
+
+Navigate to the Observability panel and drill into Kubernetes
+![Node exporter metrics](images/image29.png)
+
+# Explore using the Kubernetes structure
+
+Kubernetes Monitoring pages reflect the hierarchy of Kubernetes objects, so you can begin at any level above containers. Main pages include lists of Clusters, namespaces, workloads, and Nodes.
+
+For example, the Cluster main page shows the list of your Clusters. When you click on a Cluster in the list, it opens the Cluster detail page. That page shows the details for the Cluster along with a list of Nodes within that Cluster.
+
+You can continue to drill into a Node and see the list of Pods for that Node, all the way to the container level.
+
+Have a PLAY!!
+
+![Node exporter metrics](images/image30.png)
+
+For additional navigation tips, refer to [Navigation tips](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/kubernetes-monitoring/navigate-k8s-monitoring/#navigation-tips) for Kubernetes Monitoring.
+
+# Grafana integrations
+
+**Pre-configured Prometheus and Grafana-based observability stack up and running in minutes.**
+
+Integrations bundle Grafana Alloy configuration snippets, tailored Grafana dashboards, and alerting defaults for common observability targets like Linux hosts, Kubernetes clusters, and Nginx servers. 
+
+Refer to Integrations reference for the current list of integrations.
+[Integrations reference](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/)
+
+
+
 ## Pop Quiz
-What algorithm does Grafana Forecasting use?
+1. What algorithm does Grafana Forecasting use?
+2. What is Grafana Alloy?
 
 ## End of second breakout. Stop here!
 
@@ -87,5 +130,7 @@ What algorithm does Grafana Forecasting use?
 ```
 ## Answer to the Pop Quiz
 
-Grafana Forecasting uses the Prophet algorithm for its forecasting capabilities. Prophet is a time series forecasting model developed by Facebook, designed to automatically account for features such as yearly, weekly, and daily seasonality. This allows Grafana to capture repeating patterns in your data and use them for adaptive alerting and capacity planning. Additionally, Grafana Machine Learning supports enhancements like holiday effects, where you can inform the model about specific recurring events to improve forecast accuracy. The model is retrained periodically to stay up-to-date with your latest data and patternsprometheus_build_info
+**Grafana Forecasting uses the Prophet algorithm** for its forecasting capabilities. Prophet is a time series forecasting model developed by Facebook, designed to automatically account for features such as yearly, weekly, and daily seasonality. This allows Grafana to capture repeating patterns in your data and use them for adaptive alerting and capacity planning. Additionally, Grafana Machine Learning supports enhancements like holiday effects, where you can inform the model about specific recurring events to improve forecast accuracy. The model is retrained periodically to stay up-to-date with your latest data and patternsprometheus_build_info
+
+**Grafana Alloy** is an open source, high-performance, vendor-neutral distribution of the OpenTelemetry Collector developed by Grafana Labs. It is designed to collect, process, and export telemetry signals—including metrics, logs, traces, and profiles—from a wide variety of sources, supporting both application and infrastructure observability needs. Alloy is fully compatible with popular open source observability standards such as OpenTelemetry and Prometheus, and it offers native pipelines for these and other telemetry formats like Loki and Pyroscope.
 
