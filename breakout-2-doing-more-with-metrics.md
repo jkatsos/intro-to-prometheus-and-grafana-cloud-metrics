@@ -1,6 +1,7 @@
 # Breakout 2 - Doing more with Metrics in Grafana Cloud
 
 Navigate to the Grafana AI & Machine learning page
+
 ![Node exporter metrics](images/image27.png)
 
 From here you can see all the AI & ML capabilities that Grafana Cloud offers across the platform.
