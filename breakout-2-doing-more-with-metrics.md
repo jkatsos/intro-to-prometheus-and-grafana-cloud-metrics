@@ -26,8 +26,31 @@ sum(rate(tns_request_duration_seconds_sum{job="tns-loadgen"}[1m])) * 1e3 / sum(r
 10. Review your forecast. Once you’re satisfied, click Create forecast.
 11. On the Forecasts page, your forecast is ready to generate predictions when the Pending tag turns into a green Ready tag.
 
+# View your forecast
+Click View on the Grafana Cloud Active Series forecast you created in the previous section.
+Change the view to an interesting time frame for your forecast. By default the view is for the current week.
+Explore how the forecast matches your actual result, and be sure to include some days in the future to see how the model thinks your active series will evolve.
+
+At the top of the screen, the UI displays your original query, as well as how you can query the forecast (grafanacloud_active_series:predicted) or actual(grafanacloud_active_series:actual) data. You can use these series to create panels or alerts.
+
 It should look something like this:
 ![Node exporter metrics](images/image28.png)
+
+# Use the forecast in a panel
+From the view page:
+
+1. Click the Copy as panel button in the upper right.
+2. Open an existing dashboard or create a new dashboard.
+3. At the top of the dashboard, click Add and select Paste panel from the dropdown.
+4. Edit the new panel and view the generated queries.
+
+# [Advanced to do later] Use the forecast in an alert
+(Read this first https://grafana.com/docs/grafana/latest/alerting/#overview-of-grafana-alerting)
+1. Click the Create Alert button from either the view page or the list page.
+2. In the Alert evaluation behavior section, choose a folder in which to save the alert.
+3. Tune the alert conditions and labels, if desired.
+4. Click Save or Save and exit to create the alert and navigate back to the previous page.
+
 
 Connect to this URL in your web browser.  You'll be presented with the Prometheus UI which contains five tabs across the top:
 
