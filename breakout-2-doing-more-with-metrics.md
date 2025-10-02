@@ -9,10 +9,30 @@ Spend some time here exploring some of the capabilities on offer.
 
 For this excercise we will use the Load Balanace Average latency query we created earlier to predict unexpected increases in latency
 
+1. Click + New Forecast.
+2. In the Query builder, choose the promethues datasource that we created earlier.
+3. Run the following query:
+
+```bash
+sum(rate(tns_request_duration_seconds_sum{job="tns-loadgen"}[1m])) * 1e3 / sum(rate(tns_request_duration_seconds_count{job="tns-loadgen"}[1m]))
+```
+
+4. Click Next: Preview and tune.
+5. Preview the forecast. Your series appears in green while the forecast is blue.
+6. Drag the Uncertainty interval width slider to 0.8 and see how the bands in the preview get narrower.
+7. Click the Advanced Model Options section header and observe the tuneable knobs.
+8. Click Next: Set name and description.
+9. Name your forecast Grafana Cloud Active Series and click Next: Review.
+10. Review your forecast. Once you’re satisfied, click Create forecast.
+11. On the Forecasts page, your forecast is ready to generate predictions when the Pending tag turns into a green Ready tag.
+
+It should look something like this:
+![Node exporter metrics](images/image28.png)
+
 Connect to this URL in your web browser.  You'll be presented with the Prometheus UI which contains five tabs across the top:
 
 ```bash
-Alerts  Graph  Status  Help
+sum(rate(tns_request_duration_seconds_sum{job="tns-loadgen"}[1m])) * 1e3 / sum(rate(tns_request_duration_seconds_count{job="tns-loadgen"}[1m]))
 ```
 
 ![Landing page](https://github.com/grafana/intro-to-prometheus-breakouts/assets/62857586/55df67b7-e31d-4e69-a62b-0af6652cfe52)
