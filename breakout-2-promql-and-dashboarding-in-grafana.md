@@ -1,4 +1,4 @@
-# Prometheus Breakout 2 - PromQL and Dashboarding in Grafana
+# Prometheus Breakout 1 - PromQL and Dashboarding in Grafana
 
 Visit grafana.com and sign in to access your hosted Grafana instance or log in to your hosted Grafana instance directly (https://YourInstanceExampleURL.grafana.net).
 
