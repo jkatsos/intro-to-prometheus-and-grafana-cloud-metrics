@@ -27,7 +27,7 @@ For this step, just click on the link and take a look at what this looks like so
 
 [http://34.121.40.211:9100/metrics](http://34.121.40.211:9100/metrics)
 
-![Node exporter metrics](images/image13.png)
+![Node exporter metrics](images/image27.png)
 
 ## Alertmanager UI
 [http://34.121.40.211:9093](http://34.121.40.211:9093)
