@@ -4,7 +4,7 @@ Navigate to the Grafana AI & Machine learning page
 
 ![Node exporter metrics](images/image27.png)
 
-From here you can see all the AI & ML capabilities that Grafana Cloud offers across the platform.
+From here you can see all the **AI & ML capabilities that Grafana Cloud** offers across the platform.
 
 Spend some time here exploring some of the capabilities on offer.
 
@@ -55,9 +55,7 @@ From the view page:
 
 
 ## Pop Quiz
-What query would you use to find the Prometheus build info?
-
-How many time series does this Prometheus server have?
+What algorithm does Grafana Forecasting use?
 
 ## End of second breakout. Stop here!
 
@@ -89,7 +87,5 @@ How many time series does this Prometheus server have?
 ```
 ## Answer to the Pop Quiz
 ```
-prometheus_build_info
+Grafana Forecasting uses the Prophet algorithm for its forecasting capabilities. Prophet is a time series forecasting model developed by Facebook, designed to automatically account for features such as yearly, weekly, and daily seasonality. This allows Grafana to capture repeating patterns in your data and use them for adaptive alerting and capacity planning. Additionally, Grafana Machine Learning supports enhancements like holiday effects, where you can inform the model about specific recurring events to improve forecast accuracy. The model is retrained periodically to stay up-to-date with your latest data and patternsprometheus_build_info
 ```
-
-`prometheus_tsdb_head_series` to find `3100`
