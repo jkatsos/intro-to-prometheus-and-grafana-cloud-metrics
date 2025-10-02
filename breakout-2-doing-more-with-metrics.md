@@ -1,7 +1,13 @@
 # Breakout 2 - Doing more with Metrics in Grafana Cloud
 
-## Getting Started
-**Prometheus Server endpoint:** [http://34.121.40.211:9090](http://34.121.40.211:9090)
+Navigate to the Grafana AI & Machine learning page
+![Node exporter metrics](images/image27.png)
+
+From here you can see all the AI & ML capabilities that Grafana Cloud offers across the platform.
+
+Spend some time here exploring some of the capabilities on offer.
+
+For this excercise we will use the Load Balanace Average latency query we created earlier to predict unexpected increases in latency
 
 Connect to this URL in your web browser.  You'll be presented with the Prometheus UI which contains five tabs across the top:
 
