@@ -1,4 +1,4 @@
-# Prometheus Breakout 1 - Exploring the UI
+# Breakout 2 - Doing more with Metrics in Grafana Cloud
 
 ## Getting Started
 **Prometheus Server endpoint:** [http://34.121.40.211:9090](http://34.121.40.211:9090)
