@@ -1,4 +1,4 @@
-# Introduction to Prometheus Breakout Sessions
+# Introduction to Prometheus and Grafana Cloud Metrics Breakout Sessions
 
 ## Breakouts:
 
