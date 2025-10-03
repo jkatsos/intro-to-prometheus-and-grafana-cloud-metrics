@@ -1,19 +1,17 @@
 # Breakout 3 - The Grafana Assistant Challenge!
 
-Navigate to the Grafana AI & Machine learning page
+Navigate to the TNS Dashboard you created in Breakout 1, and click the Grafana Assistant button
 
-![Node exporter metrics](images/image27.png)
+![Grafana Assistant](images/image31.png)
 
-From here you can see all the **AI & ML capabilities that Grafana Cloud** offers across the platform.
+As suggested, **Spark a conversation and fuel it with context!**. 
 
-Spend some time here exploring some of the capabilities on offer.
+![Grafana Assistant](images/image32.png)
 
-For this excercise we will use the Load Balanace Average latency query we created earlier to predict unexpected increases in latency
+Supercharge Your TNS Dashboard!
 
-1. Click + New Forecast.
-2. In the Query builder, choose the promethues datasource that we created earlier.
-3. Run the following query:
+# Use this opportunity to push your Grafana Assistant creation to the limit and transform your dashboard. The most spectacular entry wins a prize!
 
-```bash
-sum(rate(tns_request_duration_seconds_sum{job="tns-loadgen"}[1m])) * 1e3 / sum(rate(tns_request_duration_seconds_count{job="tns-loadgen"}[1m]))
-```
+
+
+
