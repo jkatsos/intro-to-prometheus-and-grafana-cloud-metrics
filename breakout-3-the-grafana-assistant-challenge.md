@@ -8,9 +8,8 @@ As suggested, **Spark a conversation and fuel it with context!**.
 
 ![Grafana Assistant](images/image32.png)
 
-Supercharge Your TNS Dashboard!
-
-# Use this opportunity to push your Grafana Assistant creation to the limit and transform your dashboard. The most spectacular entry wins a prize!
+# Supercharge Your TNS Dashboard!
+Use this opportunity to push your Grafana Assistant creation to the limit and transform your dashboard. The most spectacular entry wins a prize!
 
 
 
