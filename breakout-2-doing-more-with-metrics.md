@@ -64,9 +64,7 @@ Configuring, installing, connecting, and maintaining components for a Prometheus
 
 Let's see this is action.
 
-Goto to [Grafana Play](https://play.grafana.org/)
-Play is a sandbox for testing and learning Grafana that runs on Grafana Cloud.
-Find interactive demos, explore how Grafana works, and see what you can build.
+Goto to [Grafana Play](https://play.grafana.org/) a sandbox for testing and learning Grafana that runs on Grafana Cloud.
 
 Navigate to the Observability panel and drill into Kubernetes
 ![Node exporter metrics](images/image29.png)
@@ -79,7 +77,7 @@ For example, the Cluster main page shows the list of your Clusters. When you cli
 
 You can continue to drill into a Node and see the list of Pods for that Node, all the way to the container level.
 
-Have a PLAY!!
+**Have a PLAY!!**
 
 ![Node exporter metrics](images/image30.png)
 
