@@ -1,11 +1,5 @@
 # Prometheus Breakout 1 - PromQL and Dashboarding in Grafana
 
-Visit grafana.com and sign in to access your hosted Grafana instance or log in to your hosted Grafana instance directly (https://YourInstanceExampleURL.grafana.net).
-
-Once logged into grafana.com, you'll be presented with your stack. Click the Log in button in the Grafana section:
-
-![Grafana Cloud Stack](images/image24.png)
-
 ## Adding a Prometheus Data Source
 Once you are signed into your instance, let's visit the data source section and add one.
 

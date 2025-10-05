@@ -1,6 +1,11 @@
 # Introduction to Prometheus and Grafana Cloud Metrics Breakout Sessions
 
 ## Breakouts:
+Before you begin.  Set up your Grafana free trial.
+
+[Create Grafana Free Trial](https://grafana.com/auth/sign-up/create-user?pg=pricing&plcmt=metrics-details&cta=create-free-account)
+
+![Node exporter metrics](images/image33.png)
 
 [Breakout 1: PromQL and Dashboarding in Grafana](breakout-1-promql-and-dashboarding-in-grafana.md)
 
