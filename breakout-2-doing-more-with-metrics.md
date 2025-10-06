@@ -10,13 +10,9 @@ From here you can see all the **AI & ML capabilities that Grafana Cloud** offers
 
 Spend some time here exploring some of the capabilities on offer.
 
-<<<<<<< HEAD
 For this excercise we will use the Load Balanace Average latency query we created earlier to predict unexpected increases in latency.  
 
 To begin, Click on the Forecasts & Anomoly detection tile.
-=======
-For this excercise we will use the Load Balanace Average latency query we created earlier to predict unexpected increases in latency
->>>>>>> 4b72aaafd26e8cb9d661c6d20c6c9600419823ba
 
 1. Click + New Forecast.
 2. In the Query builder, choose the promethues datasource that we created earlier.
