@@ -32,6 +32,10 @@ This query is telling us the count of the number of requests. It will list all j
 
 Let’s focus on a specific job, `tns-app`.
 
+If you are wondering what the TNS app is see [The New Stack (TNS) observability app](https://github.com/grafana/tns)
+
+
+
 Apply the job label:
 ```
 {job="tns-app"}
