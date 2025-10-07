@@ -1,5 +1,13 @@
 # Breakout 2 - Doing more with Metrics in Grafana Cloud
 
+In this breakout, we'll explore how to leverage and maximize the value of your metrics.
+
+Part 1 will focus on advanced metric utilization, using the Facebook Prophet time series forecasting model to perform forecasting and anomaly detection.
+
+Part 2 is a hands-on exploration of pre-built Grafana solutions. We'll simplify the process of collecting, visualizing, and setting up alerts for infrastructure components, focusing specifically on Kubernetes.
+
+Let's dive in! 🚀
+
 # Part 1 - Metrics forecasting and anomoly detection
 
 Navigate to the Grafana AI & Machine learning page
