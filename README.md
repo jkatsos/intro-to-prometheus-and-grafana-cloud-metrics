@@ -1,11 +1,6 @@
 # Introduction to Prometheus and Grafana Cloud Metrics Breakout Sessions
 
 This workshop is all about diving into the Prometheus ecosystem and then using Grafana Cloud Metrics to massively enhance those metrics. We'll show you how to supercharge them with Grafana Cloud
-1. Integrations, Kuberenetes and Cloud Monitoring
-2. Machine Learning and AI tools 
-3. Adaptive Metrics
-
-and more!
 
 If you have not done so already [Set up your free trial](set-up-your-free-trial.md)
 
